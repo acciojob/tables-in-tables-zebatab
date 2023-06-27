@@ -7,8 +7,60 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table border="2" style="width: 100%; height: 100%">
       <!-- Your code here -->
+		<thead>
+			<th style="width: 50%;">
+				<table border="2" style="width: 100%;">
+					<th colspan="2">Nested Table 2</th>
+					<tr>
+						<td><b>Column 1</b></td>
+						<td><b>Column 2</b></td>
+					</tr>
+					 <tr>
+						<td>abc</td>
+						<td>def</td>
+					</tr>
+				</table>
+			</th>
+			<th style="width: 50%;">
+			   <table border="2" width=100% height=50>
+				   <th colspan="2">Nested Table 1</th>
+				   <tr>
+					   <td>
+						   <ul style="list-style-type: disc;">
+							   <li>List item</li>
+							   <li>List item</li>
+							   <li>List item</li>
+						   </ul>
+					   </td>
+				   </tr>
+				
+			  </table>
+			</th>
+			
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<table border="2" style="width:100%">
+						<th colspan="2">Nested Table 3</th>
+						<tr>
+							<td style="color:darkblue; text-align: center;"><u>Nested Table</u></td>
+							<td style="text-align:center;">Demo Continued</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+				  <table border="2" style="width: 100%;">
+					<th>Nested Table 4</th>
+					  <tr style="background-color: black;">
+						  <td style="text-align:center; color: white">HTML</td>
+					  </tr>
+				  </table>
+				</td>
+			</tr>
+		</tbody>
     </table>
   </body>
 </html>
